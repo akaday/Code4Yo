@@ -1,11 +1,18 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #e9ecef;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header {
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: white;
   padding: 1rem;
 }
@@ -23,5 +30,5 @@ nav ul li {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #e9ecef;
+  background-color: var(--secondary-color);
 }
