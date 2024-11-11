@@ -15,6 +15,18 @@ To run this project locally:
    ```
 3. Open `index.html` in your preferred web browser to view the project.
 
+## Running the FastAPI app
+
+To run the FastAPI application:
+1. Install the required dependencies:
+   ```bash
+   pip install fastapi uvicorn
+   ```
+2. Run the FastAPI application:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
 ## Project Structure
 
 The project directory structure is as follows:
@@ -28,6 +40,7 @@ CODE4YO.COM/
 ├── ads.txt
 ├── CNAME
 ├── index.html
+├── main.py
 ├── style.css
 ├── script.js
 └── README.md
