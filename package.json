@@ -1,0 +1,12 @@
+{
+  "name": "code4yo",
+  "version": "1.0.0",
+  "description": "Welcome to the **Code4Yo** project! This platform provides live coding sessions, project showcases, and tutorials.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
